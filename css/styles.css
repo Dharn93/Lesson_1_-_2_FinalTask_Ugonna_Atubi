@@ -1,0 +1,95 @@
+.html{margin: 0;}
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/*Header*/
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+}
+
+.header a{
+margin-right: 20px;
+color: rgba(0, 0, 0, 0.87);
+font-size: 15px;
+text-decoration: inherit;
+}
+
+.header a:hover{
+  text-decoration: underline;
+}
+
+.header__right{
+  display: flex;
+  align-items: center;
+  min-width: 13vw;
+  justify-content: space-between; 
+}
+
+.header__right .header__apps{
+margin-right: 10px;
+}
+
+.mainbody{
+  flex: 1;
+  display: flex;
+  margin-top: 12%;
+  flex-direction: column;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 30px;
+  padding: 10x 20px;
+  border-radius: 1000px;
+  width: 75vw;
+  margin: 0% auto;
+  margin-top: 40px;
+  max-width: 560px;
+}
+
+.search__input{
+  flex: 10;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  }
+  
+  .search__input .material-icons{
+    color: gray;
+  }
+
+  .search_buttons{
+    display: flex;
+    justify-content: center;
+    margin: 300 0 300 550;
+  }
+
+  .search_buttons button{
+margin: 5px;
+padding: 10px 15px;
+background-color: grey;
+outline: none;
+border: none;
+cursor: pointer;
+  }
+
+.material-icons{
+  cursor: pointer;
+  padding: auto;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section 
+{
+	display: block;}
+  .search_buttons{
+    align-items: center; display: block;
+  }
